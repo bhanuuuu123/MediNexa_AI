@@ -1,0 +1,286 @@
+[2026-06-20T05:07:20.986Z] [ERROR] [POST /api/auth/login] Status: 401
+Error: Invalid credentials.
+    at loginUser (file:///D:/healix-ai/healix-ai/backend/src/controllers/authController.js:44:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:07:27.834Z] [ERROR] [POST /api/auth/login] Status: 401
+Error: Invalid credentials.
+    at loginUser (file:///D:/healix-ai/healix-ai/backend/src/controllers/authController.js:44:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:07:28.918Z] [ERROR] [POST /api/auth/login] Status: 401
+Error: Invalid credentials.
+    at loginUser (file:///D:/healix-ai/healix-ai/backend/src/controllers/authController.js:44:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:07:40.135Z] [ERROR] [POST /api/auth/login] Status: 401
+Error: Invalid credentials.
+    at loginUser (file:///D:/healix-ai/healix-ai/backend/src/controllers/authController.js:44:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:07:41.036Z] [ERROR] [POST /api/auth/login] Status: 401
+Error: Invalid credentials.
+    at loginUser (file:///D:/healix-ai/healix-ai/backend/src/controllers/authController.js:44:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:34:59.382Z] [ERROR] [POST /api/auth/register] Status: 500
+SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (D:\healix-ai\healix-ai\backend\node_modules\body-parser\lib\types\json.js:91:21)
+    at D:\healix-ai\healix-ai\backend\node_modules\body-parser\lib\read.js:162:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (D:\healix-ai\healix-ai\backend\node_modules\raw-body\index.js:238:16)
+    at done (D:\healix-ai\healix-ai\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\healix-ai\healix-ai\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-06-20T05:45:04.288Z] [ERROR] [GET /api/auth/profile] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:10:17)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\healix-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-20T05:45:04.316Z] [ERROR] [GET /api/auth/profile] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:10:17)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\healix-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-20T05:49:18.664Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:49:19.690Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:49:29.726Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:49:30.753Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:49:32.575Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:49:33.602Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:49:57.921Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:49:58.938Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:50:16.080Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:50:17.099Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:50:18.468Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:50:19.490Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:50:21.719Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:50:22.745Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:58:52.915Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:58:53.941Z] [ERROR] [GET /api/reports] Status: 400
+Error: Patient ID is required for doctor access.
+    at listReports (file:///D:/healix-ai/healix-ai/backend/src/controllers/reportController.js:47:21)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T05:59:10.208Z] [ERROR] [GET /api/medicines] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:10:17)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\healix-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-20T05:59:11.221Z] [ERROR] [GET /api/medicines] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:10:17)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\healix-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-20T05:59:19.929Z] [ERROR] [GET /api/reports] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:10:17)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\healix-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-20T05:59:20.151Z] [ERROR] [GET /api/appointments] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:10:17)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\healix-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-20T05:59:21.176Z] [ERROR] [GET /api/appointments] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:10:17)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\healix-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-20T05:59:26.070Z] [ERROR] [GET /api/auth/profile] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:10:17)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\healix-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-20T05:59:26.076Z] [ERROR] [GET /api/auth/profile] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:10:17)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\healix-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-20T06:49:05.319Z] [ERROR] [GET /api/auth/profile] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:11:17)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\healix-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-20T06:49:05.337Z] [ERROR] [GET /api/auth/profile] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/healix-ai/backend/src/middleware/auth.js:11:17)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\healix-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\healix-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\healix-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\healix-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-20T06:51:02.032Z] [ERROR] [POST /api/auth/patient/login] Status: 401
+Error: Invalid credentials.
+    at loginPatient (file:///D:/healix-ai/healix-ai/backend/src/controllers/authController.js:108:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-06-20T06:51:41.444Z] [ERROR] [POST /api/auth/patient/login] Status: 401
+Error: Invalid credentials.
+    at loginPatient (file:///D:/healix-ai/healix-ai/backend/src/controllers/authController.js:108:19)
+[2026-06-20T06:51:50.876Z] [ERROR] [POST /api/auth/patient/login] Status: 401
+Error: Invalid credentials.
+    at loginPatient (file:///D:/healix-ai/healix-ai/backend/src/controllers/authController.js:108:19)

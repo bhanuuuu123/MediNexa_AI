@@ -1,0 +1,39 @@
+[2026-06-28T04:38:45.415Z] [ERROR] [GET /favicon.ico] Status: 404
+Error: Not Found - /favicon.ico
+    at notFound (file:///D:/healix-ai/medinexa-ai/backend/src/middleware/errorHandler.js:4:17)
+    at Layer.handleRequest (D:\healix-ai\medinexa-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:342:13)
+    at D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:297:9
+    at processParams (D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:291:5)
+    at file:///D:/healix-ai/medinexa-ai/backend/node_modules/express-rate-limit/dist/index.mjs:779:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///D:/healix-ai/medinexa-ai/backend/node_modules/express-rate-limit/dist/index.mjs:663:5
+[2026-06-28T04:38:54.679Z] [ERROR] [GET /api/auth/profile] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/medinexa-ai/backend/src/middleware/auth.js:11:17)
+    at Layer.handleRequest (D:\healix-ai\medinexa-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\medinexa-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\medinexa-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\medinexa-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-28T04:38:54.688Z] [ERROR] [GET /api/auth/profile] Status: 401
+Error: Authentication token required.
+    at protect (file:///D:/healix-ai/medinexa-ai/backend/src/middleware/auth.js:11:17)
+    at Layer.handleRequest (D:\healix-ai\medinexa-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\healix-ai\medinexa-ai\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\healix-ai\medinexa-ai\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\healix-ai\medinexa-ai\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:295:15
+    at processParams (D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:582:12)
+    at next (D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\healix-ai\medinexa-ai\backend\node_modules\router\index.js:186:3)
+[2026-06-28T04:39:33.781Z] [ERROR] [POST /api/auth/patient/login] Status: 401
+Error: Invalid credentials.
+    at loginPatient (file:///D:/healix-ai/medinexa-ai/backend/src/controllers/authController.js:108:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
